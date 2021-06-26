@@ -50,7 +50,7 @@ Below are the Screenshot from the app
 ![](src/Images/1.png)
 
 
-![](Images/2.png)
+![](src/Images/2.png)
 
 
-![](Images/3.png)
+![](src/Images/3.png)
