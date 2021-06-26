@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.Main_Container{
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background: rgb(179, 179, 179); */
+    overflow: hidden;
+}
+.NewLink{
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.link{
+    text-decoration: none;
+    color:black;
+    font-size:30px;
+}
+.link:hover{
+   
+    text-decoration: underline;
+    transition: 0.5s ease-in-out;
+}
+.MapFunction{
+    display:grid;
+    align-items: center;
+    justify-content: space-evenly;
+    height:80vh;
+    /* width: 100%; */
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-top: 1em;
+}
+.MapData{
+    background: rgb(240, 240, 240);
+    display:grid;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 3px solid rgb(105, 220, 255);
+}
+table{
+    /* display: block; */
+    /* background: rgb(255, 211, 211); */
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+th{
+
+    padding: 2em;
+    font-size: 30px;
+}
+tr{
+    font-size: 15px;
+}
+
+td .Click,td .Click1{
+    background: rgb(32, 222, 255);
+    height:30px;
+    width:100px;
+    border-radius: 25px;
+    border:none;margin-left: -20em;
+    margin-left: 1em;
+    margin-top: -1em;
+    
+    
+}
+
+.Click:hover{
+    background: rgb(160, 241, 255);
+    color:white;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}
+.Click1:hover{
+    background: rgb(160, 241, 255);
+    color:white;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}
+
+@media screen and (max-width:767px) {
+    
+
+}

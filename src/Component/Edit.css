@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.Container{
+    height:100vh;
+    width:100vw;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    background: rgb(235, 235, 235);
+}
+.Sub_Container{
+    margin-top: -3em;
+    border-radius: 25px;
+    /* margin-left: 10em; */
+    background: rgb(223, 223, 223);
+    width:50vw;
+    height: 80%;
+    overflow: hidden;
+}
+.FirstData{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    grid-gap:20px;
+    background: rgb(223, 223, 223);
+}
+.Home{
+    color:rgb(29, 29, 29);
+    text-decoration: none;
+    font-size: 20px;
+    border:2px solid black;
+    border-radius: 25px;
+    font-weight: 600;
+
+}
+.Home:hover{
+    border:2px solid rgb(110, 110, 110);
+    transition: 0.5s ease-in-out;
+}
+.FormInfo{
+    /* margin-top:10em; */
+    margin-left: 47em;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+    /* background: crimson; */
+}
+.FormInfo h1{
+    font-size: 20px;
+    text-align: left;
+}
+.FormInfo input{
+    width:500px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    padding: 5px;
+}
+.Paid {
+    /* margin-left: 4em; */
+    /* background: chocolate; */
+    width:30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+    /* overflow-y: hidden; */
+    
+}
+.Paid h2{
+    margin-left: 4em;
+    font-size: 15px;
+}
+.Submit{
+    margin-left: 8em;
+    color:white;
+    width: 180px;
+    height: 40px;
+    font-weight: 700;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    background: rgb(255, 52, 37);
+}
+.Submit:hover{
+    background: rgb(255, 103, 103);
+    transition: 400ms ease-in-out;
+    cursor: pointer;
+}
