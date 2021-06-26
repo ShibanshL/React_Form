@@ -47,7 +47,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 Below are the Screenshot from the app
 
-![](Images/1.png)
+![](src/Images/1.png)
 
 
 ![](Images/2.png)
