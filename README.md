@@ -47,12 +47,13 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-Below are the Screenshot from the app \
+Below are the Screenshot from the app 
 
-1. This is the main form which posts the data in the server. \
+1. This is the main form which posts the data in the server. 
 
 ![](src/Images/1.png)
 
+2. This is the page that displays all tha data. 
 
 ![](src/Images/2.png)
 
